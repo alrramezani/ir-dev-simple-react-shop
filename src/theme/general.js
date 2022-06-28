@@ -6,5 +6,6 @@ export const GlobalStyle = createGlobalStyle`
     }
     body{
         background-color: ${({ theme }) => theme.colors.bg};
+        margin:0;
     }
 `;
