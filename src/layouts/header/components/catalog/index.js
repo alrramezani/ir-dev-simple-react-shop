@@ -3,7 +3,7 @@ import { BiGridAlt } from "react-icons/bi";
 const Catalog = () => {
   return (
     <CatalogContainer>
-      <BiGridAlt /> Catalog
+      <BiGridAlt/> <span>Catalog</span>
     </CatalogContainer>
   );
 };

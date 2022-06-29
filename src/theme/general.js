@@ -8,4 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${({ theme }) => theme.colors.bg};
         margin:0;
     }
+    p{
+    margin:0;
+    }
 `;

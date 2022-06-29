@@ -1,6 +1,8 @@
 import {HeaderContainer} from "./style";
 import Catalog from "./components/catalog";
 import Menu from "./components/menu";
+import Search from "./components/search";
+import Profile from "./components/profile";
 
 const Header = (props) => {
     return (
@@ -31,11 +33,16 @@ const Header = (props) => {
                 </div>
             </div>
             <div className='bottom'>
-                <div className="category">
+                <div className="catalog">
                     <Catalog/>
                 </div>
-                <div className="search">
-                    <Menu/>
+                <div className="right">
+                   <div className="search">
+                       <Search  />
+                   </div>
+                   <div className="profile">
+                       <Profile  />
+                   </div>
                 </div>
             </div>
         </HeaderContainer>
