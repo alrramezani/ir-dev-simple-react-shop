@@ -1,12 +1,13 @@
-import React from 'react';
-import {FiSearch} from 'react-icons/fi'
-import {SearchContainer} from "./style/search";
+import React from "react";
+import { FiSearch } from "react-icons/fi";
+import { SearchContainer } from "./style";
 const Search = () => {
-    return (
-        <SearchContainer >
-            <span>Search...</span> <FiSearch/>
-        </SearchContainer>
-    );
+  return (
+    <SearchContainer>
+      <input placeholder="Search..." />
+      <FiSearch />
+    </SearchContainer>
+  );
 };
 
 export default Search;

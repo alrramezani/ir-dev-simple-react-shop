@@ -9,6 +9,11 @@ export const GlobalStyle = createGlobalStyle`
         margin:0;
     }
     p{
-    margin:0;
+        margin:0;
+    }
+    .container{
+        max-width:1200px;
+        width:100% ;
+        margin:auto ;
     }
 `;
