@@ -1,10 +1,21 @@
 {
   "colors": {
     "bg": "#f7f6f0",
-    "border": "#ebeae5"
+    "border": "#ebeae5",
+    "fontBase": "#2c2b27"
   },
-  "sizes":{
-    "p1":"10px",
-    "p2":"14px"
+  "sizes": {
+    "font1": "12px",
+    "fontBase": "16px",
+    "fontxs": "0.8em",
+    "fontsm": "0.9em",
+    "fontmd": "1em",
+    "fontlg": "1.1em",
+    "fontxl": "1.2em",
+    "font2xl": "1.5em",
+    "font3xl": "1.8em",
+    "font4xl": "2.2em",
+    "font5xl": "2.6em",
+    "font6xl": "3.2em"
   }
 }

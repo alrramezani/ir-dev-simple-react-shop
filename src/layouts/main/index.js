@@ -3,7 +3,7 @@ const MainLayout = ({ component }) => {
   return (
     <>
       <Header />
-      {component}
+      <div className="container">{component}</div>
     </>
   );
 };

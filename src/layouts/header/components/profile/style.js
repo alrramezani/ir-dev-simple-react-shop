@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ProfileContainer = styled.div`
   display: flex;
   width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
   .icon_box {
     display: flex;
     border: 1px solid #ebebeb;
