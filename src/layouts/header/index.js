@@ -3,8 +3,12 @@ import Catalog from "./components/catalog";
 import Menu from "./components/menu";
 import Search from "./components/search";
 import Profile from "./components/profile";
+import { useContext } from "react";
+import mainContext from "contexts/main";
 
 const Header = (props) => {
+  const { userData } = useContext(mainContext);
+  console.log(userData);
   return (
     <HeaderContainer>
       <div className="top">
